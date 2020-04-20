@@ -24,3 +24,6 @@
 
 <br>[CLIP6](https://youtu.be/zDQW-HyqBxg)
 
+<br>**Pipelining**
+
+<br>[CLIP7](https://youtu.be/3Bm1NIazgtc)
