@@ -8,14 +8,19 @@
 
 <br>[CLIP2](https://youtu.be/X4YcjFMqclM)
 
-<br>**Multi cycle VS Single cycle**
+<br>**Multi-cycle VS Single-cycle**
 
 <br>[CLIP3](https://youtu.be/f6bQtnDyrzQ)
 
-<br>**Load word in Multi cycle**
+<br>**Load word in Multi-cycle**
 
 <br>[CLIP4](https://youtu.be/DK0LAkcEjHc)
 
-<br>**Branch of Equal in Multi cycle**
+<br>**Branch of Equal in Multi-cycle**
 
 <br>[CLIP5](https://youtu.be/Eh2OFieFIFA)
+
+<br>**FSM controller in Multi-cycle**
+
+<br>[CLIP6](https://youtu.be/zDQW-HyqBxg)
+
