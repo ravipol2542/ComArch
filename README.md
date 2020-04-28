@@ -80,12 +80,13 @@
 * beq $rs $rt offset
 1. ขั้นตอนที่1 การเอาคำสั่งจากmemory ไปยัง instruction register และในขณะเดียวกัน PC = PC+4
 2. ขั้นตอนที่2 การถอดรหัสคำสั่ง เอาค่าในรีจิสเตอร์ของrs, rt ไปพักไว้ใน A, B
-3. ขั้นตอนที่3 นำค่าที่พักในA,B คำนวณในALUว่า rs-rt=0ไหม ถ้าเท่ากันจะกระโดด
+3. ขั้นตอนที่3 นำค่าที่พักในA,B คำนวณในALUว่า rs-rt=0ไหม ถ้าเท่ากันจะกระโดด ซึ่งกระโดดไปที่ PC=ALUOut
 
 <br>**หัวข้อที่6. FSM controller in Multi-cycle**
 
 <br>[วิดีดอที่6 FSM controller ในMUlti-cycle](https://youtu.be/zDQW-HyqBxg)
 ![รูปภาพMulti](https://lings2mi.files.wordpress.com/2012/12/multicycle-datacontrol.jpg?w=848)
+
 <br>**หัวข้อที่7. Pipelining**
 
 <br>[วิดีโอที่7 Pipelining](https://youtu.be/3Bm1NIazgtc)
