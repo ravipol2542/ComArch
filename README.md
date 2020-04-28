@@ -47,10 +47,15 @@
 * Clock cycle ในSingle-cycle ใช้ระยะเวลา 8 ns
 * ซึ่งการมี 2 addersและ 1 ALU ทำให้เปลืองพื้นที่ชิพและไม่สามารถนำresourceกลับมาใช้ใหม่ได้
 * การแยก Memoryระหว่างคำสั่งและข้อมูล แบบHarvard architecture ทำให้เปลืองMemory
+
 <br>**ทำให้พัฒนามาเป็น Multi-cycle**
 ![รูปภาพMulti](https://lings2mi.files.wordpress.com/2012/12/multicycle-datacontrol.jpg?w=848)
-* ใน Multi-cycle ประกอบด้วย 1 Memory, 5.5 Muxes, 1 ALU, 5 Register
-<br>**หัวข้อที่4. Load word in Multi-cycle**
+* ใน Multi-cycle ประกอบด้วย 1 Memory, 5.5 Muxes, 1 ALU, 5 Register(ประกอบด้วย A, B,Instruction register, Memory data register, ALUOut)
+* Clock cyle ในMulti-cycle ใช้ระยะเวลา 6 ns สำหรับคำสั่งadd, 8 ns สำหรับ loadword, 7 ns สำหรับ storeword, 5 ns สำหรับ branch of equal และ 2 ns สำหรับ คำสั่งjump
+* ALU ใช้สำหรับ บวก4ให้PC และ คำนวณหาaddress ซึ่งมีการreuse functional Unit
+* Memory มีการreuse สำหรับ คำสั่งและข้อมูล แบบVon nueman architecture
+
+### หัวข้อที่4. Load word in Multi-cycle
 
 <br>[คลิปวิดีโอที่4 คำสั่งloadword ในMulti-cycle](https://youtu.be/DK0LAkcEjHc)
 
