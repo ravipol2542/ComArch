@@ -58,7 +58,7 @@
 ### หัวข้อที่4. Load word in Multi-cycle
 
 <br>[คลิปวิดีโอที่4 คำสั่งloadword ในMulti-cycle](https://youtu.be/DK0LAkcEjHc)
-5 ขั้นตอนของloadword ในMulti-cycle
+<br>**5 ขั้นตอนของloadword ในMulti-cycle**
 1. ขั้นตอนที่1 การเอาคำสั่งจากmemory ไปยัง instruction register และในขณะเดียวกัน PC = PC+4
 ![รูปภาพlw](Lw1.jpg)
 ![รูปภาพlw](Lw1.1.jpg)
