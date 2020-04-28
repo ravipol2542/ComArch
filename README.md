@@ -39,10 +39,11 @@
 * บรรทัดที่ 6 add $3, $1, $2 หมายถึง นำข้อมูลใน รีจิสเตอร์1 และ รีจิสเตอร์2 บวกกัน แล้วนำค่าไปเก็บใน รีจิสเตอร์3
 * บรรทัดที่ 7 sw $3, $9(8) หมายถึง นำข้อมูลในรีจิสเตอร์3 เก็บค่าในตำแหน่ง 1A000000 บวก8 คือ1A000008 เก็บค่าผลลัพธ์ ค่า c ที่เท่ากับ30
 
-<br>**หัวข้อที่3. Multi-cycle VS Single-cycle**
-
+###หัวข้อที่3. Multi-cycle VS Single-cycle
 <br>[วิดีโอที่3 การเปรียบเทียบระหว่าง Multi-cycle และ single cycle](https://youtu.be/f6bQtnDyrzQ)
 
+![รูปภาพMulti](https://lings2mi.files.wordpress.com/2012/12/multicycle-datacontrol.jpg?w=848)
+![รูปภาพSingle](https://i.stack.imgur.com/vCvw1.png)
 <br>**หัวข้อที่4. Load word in Multi-cycle**
 
 <br>[คลิปวิดีโอที่4 คำสั่งloadword ในMulti-cycle](https://youtu.be/DK0LAkcEjHc)
