@@ -1,6 +1,7 @@
 #                                                              CN210
 
 <br>**หัวข้อที่1. คำสั่ง Add ใน R-type**
+###   คำสั่งใน MIPS มีทั้งหมด 3 ประเภท
 
 <br>[วิดีโอที่1 คำสั่งadd ใน R-type](https://youtu.be/pT1bIVJNtd4)
 
