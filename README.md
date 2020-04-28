@@ -39,11 +39,17 @@
 * บรรทัดที่ 6 add $3, $1, $2 หมายถึง นำข้อมูลใน รีจิสเตอร์1 และ รีจิสเตอร์2 บวกกัน แล้วนำค่าไปเก็บใน รีจิสเตอร์3
 * บรรทัดที่ 7 sw $3, $9(8) หมายถึง นำข้อมูลในรีจิสเตอร์3 เก็บค่าในตำแหน่ง 1A000000 บวก8 คือ1A000008 เก็บค่าผลลัพธ์ ค่า c ที่เท่ากับ30
 
-###หัวข้อที่3. Multi-cycle VS Single-cycle
+### หัวข้อที่3. Multi-cycle VS Single-cycle
 <br>[วิดีโอที่3 การเปรียบเทียบระหว่าง Multi-cycle และ single cycle](https://youtu.be/f6bQtnDyrzQ)
 
-![รูปภาพMulti](https://lings2mi.files.wordpress.com/2012/12/multicycle-datacontrol.jpg?w=848)
 ![รูปภาพSingle](https://i.stack.imgur.com/vCvw1.png)
+* ในSingle-cycle ประกอบด้วย 2 Memoryที่แยกเก็บระหว่างคำสั่งและข้อมูล, 4.0 Muxes, 1 ALU, 2 adders
+* Clock cycle ในSingle-cycle ใช้ระยะเวลา 8 ns
+* ซึ่งการมี 2 addersและ 1 ALU ทำให้เปลืองพื้นที่ชิพและไม่สามารถนำresourceกลับมาใช้ใหม่ได้
+* การแยก Memoryระหว่างคำสั่งและข้อมูล แบบHarvard architecture ทำให้เปลืองMemory
+<br>**ทำให้พัฒนามาเป็น Multi-cycle**
+![รูปภาพMulti](https://lings2mi.files.wordpress.com/2012/12/multicycle-datacontrol.jpg?w=848)
+* ใน Multi-cycle ประกอบด้วย 1 Memory, 5.5 Muxes, 1 ALU, 5 Register
 <br>**หัวข้อที่4. Load word in Multi-cycle**
 
 <br>[คลิปวิดีโอที่4 คำสั่งloadword ในMulti-cycle](https://youtu.be/DK0LAkcEjHc)
