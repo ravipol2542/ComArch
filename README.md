@@ -76,11 +76,16 @@
 <br>**หัวข้อที่5. Branch of Equal in Multi-cycle**
 
 <br>[วิดีโอที่5 คำสั่งBEQ ในMulti-cycle](https://youtu.be/Eh2OFieFIFA)
+<br>**คำสั่ง branch of equal คือ การกระโดดแบบมีเงื่อนไข กระโดดเมื่อrs-rt=0 หรือ rsม่ีค่าเท่ากับrt**
+* beq $rs $rt offset
+1. ขั้นตอนที่1 การเอาคำสั่งจากmemory ไปยัง instruction register และในขณะเดียวกัน PC = PC+4
+2. ขั้นตอนที่2 การถอดรหัสคำสั่ง เอาค่าในรีจิสเตอร์ของrs, rt ไปพักไว้ใน A, B
+3. ขั้นตอนที่3 นำค่าที่พักในA,B คำนวณในALUว่า rs-rt=0ไหม ถ้าเท่ากันจะกระโดด
 
 <br>**หัวข้อที่6. FSM controller in Multi-cycle**
 
 <br>[วิดีดอที่6 FSM controller ในMUlti-cycle](https://youtu.be/zDQW-HyqBxg)
-
+![รูปภาพMulti](https://lings2mi.files.wordpress.com/2012/12/multicycle-datacontrol.jpg?w=848)
 <br>**หัวข้อที่7. Pipelining**
 
 <br>[วิดีโอที่7 Pipelining](https://youtu.be/3Bm1NIazgtc)
