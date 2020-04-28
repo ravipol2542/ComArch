@@ -27,7 +27,7 @@
 2. address (เลข 26 บิท) หมายถึง ตำแหน่งที่จะกระโดดไป
 
 
-###หัวข้อที่2.How CPU Work
+### หัวข้อที่2.How CPU Work
 <br>[วิดีโอที่2 ขั้นตอนการทำงานของCPU](https://youtu.be/X4YcjFMqclM)
 
 ![รูปภาพ1](git1.jpg)
