@@ -1,29 +1,29 @@
 #                                                              CN210
 
-<br>**Add in R-type**
+<br>**หัวข้อที่1. คำสั่ง Add ใน R-type**
 
-<br>[CLIP1](https://youtu.be/pT1bIVJNtd4)
+<br>[วิดีโอที่1 คำสั่งadd ใน R-type](https://youtu.be/pT1bIVJNtd4)
 
-<br>**Machine language in memory**
+<br>**หัวข้อที่2.How CPU Work**
 
-<br>[CLIP2](https://youtu.be/X4YcjFMqclM)
+<br>[วิดีโอที่2 ขั้นตอนการทำงานของCPU](https://youtu.be/X4YcjFMqclM)
 
-<br>**Multi-cycle VS Single-cycle**
+<br>**หัวข้อที่3. Multi-cycle VS Single-cycle**
 
-<br>[CLIP3](https://youtu.be/f6bQtnDyrzQ)
+<br>[วิดีโอที่3 การเปรียบเทียบระหว่าง Multi-cycle และ single cycle](https://youtu.be/f6bQtnDyrzQ)
 
-<br>**Load word in Multi-cycle**
+<br>**หัวข้อที่4. Load word in Multi-cycle**
 
-<br>[CLIP4](https://youtu.be/DK0LAkcEjHc)
+<br>[คลิปวิดีโอที่4 คำสั่งloadword ในMulti-cycle](https://youtu.be/DK0LAkcEjHc)
 
-<br>**Branch of Equal in Multi-cycle**
+<br>**หัวข้อที่5. Branch of Equal in Multi-cycle**
 
-<br>[CLIP5](https://youtu.be/Eh2OFieFIFA)
+<br>[วิดีโอที่5 คำสั่งBEQ ในMulti-cycle](https://youtu.be/Eh2OFieFIFA)
 
-<br>**FSM controller in Multi-cycle**
+<br>**หัวข้อที่6. FSM controller in Multi-cycle**
 
-<br>[CLIP6](https://youtu.be/zDQW-HyqBxg)
+<br>[วิดีดอที่6 FSM controller ในMUlti-cycle](https://youtu.be/zDQW-HyqBxg)
 
-<br>**Pipelining**
+<br>**หัวข้อที่7. Pipelining**
 
-<br>[CLIP7](https://youtu.be/3Bm1NIazgtc)
+<br>[วิดีโอที่7 Pipelining](https://youtu.be/3Bm1NIazgtc)
