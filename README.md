@@ -91,6 +91,7 @@
 2. ขั้นตอนที่2 การถอดรหัสคำสั่ง เมื่อ ALUSrcS=0 (คือ PC), ALUSrcB=3 (คือ signext(IR<<2)), ALUOP=0 (คือ add)
 3. ขั้นตอนที่3 คำนวณในALU เมื่อ ALUSrcS=1 (คือ A=Register[$rs]), ALUSrcB=0 (คือ B=Register[$rt]), ALUOP=2 (คือInstruction register[28-26])
 4. ขั้นตอนที่4 เชียนข้อมูลลงรีจิสเตอร์ rd เมื่อ RegWrite=1 (คือ จากALUout ไปที่Register[$rd]), MemtoReg=0 (คือ ALUout), RegDst=1 (คือ rd)
-<br>**หัวข้อที่7. Pipelining**
+### หัวข้อที่7. Pipelining
 
 <br>[วิดีโอที่7 Pipelining](https://youtu.be/3Bm1NIazgtc)
+
