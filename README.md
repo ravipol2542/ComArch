@@ -5,7 +5,7 @@
 ![รูปภาพประเภทของMIPS](https://www.researchgate.net/profile/Yul_Chu/publication/228942202/figure/fig2/AS:669511661412368@1536635427816/Instruction-formats-for-MIPS-architecture-1.png)
 * ประเภทที่ 1  R-format
 มีทั้งหมด 6 ส่วน คือ
-op หรือ opcode (เลข 6 บิทแรก)  
+1. op หรือ opcode (เลข 6 บิทแรก)  
 * ประเภทที่ 2  I-format
 * ประเภทที่ 3  J-format
 
