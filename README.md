@@ -2,9 +2,10 @@
 
 ### หัวข้อที่1. คำสั่ง Add ใน R-type
 <br>คำสั่งใน MIPS มีทั้งหมด 3 ประเภท ประกอบด้วย R-format, I-format และ J-format ซึ่งแต่ละคำสั่งมีขนาด 32 บิท 
-* ประเภทที่ 1 R-format
-* ประเภทที่ 2 I-format
-* ประเภทที่ 3 J-format
+![รูปภาพประเภทของMIPS](https://www.researchgate.net/profile/Yul_Chu/publication/228942202/figure/fig2/AS:669511661412368@1536635427816/Instruction-formats-for-MIPS-architecture-1.png)
+* ประเภทที่ 1  R-format
+* ประเภทที่ 2  I-format
+* ประเภทที่ 3  J-format
 
 <br>[วิดีโอที่1 คำสั่งadd ใน R-type](https://youtu.be/pT1bIVJNtd4)
 
