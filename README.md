@@ -60,18 +60,18 @@
 <br>[คลิปวิดีโอที่4 คำสั่งloadword ในMulti-cycle](https://youtu.be/DK0LAkcEjHc)
 * 5 ขั้นตอนของloadword ในMulti-cycle
 1. ขั้นตอนที่1 การเอาคำสั่งจากmemory ไปยัง instruction register และในขณะเดียวกัน PC = PC+4
-![รูปภาพlw](lw1.jpg)
-![รูปภาพlw](lw1.1.jpg)
+![รูปภาพlw](Lw1.jpg)
+![รูปภาพlw](Lw1.1.jpg)
 
 2. ขั้นตอนที่2 การถอดรหัสคำสั่ง เอาค่าในรีจิสเตอร์ของrs ไปพักไว้ใน A  
-![รูปภาพlw](lw2.jpg)
+![รูปภาพlw](Lw2.jpg)
 3. ขั้นตอนที่3 นำค่าoffset ไปsign extend และนำ offsetและ rsคำนวณในALU
-![รูปภาพlw](lw3.jpg)
-![รูปภาพlw](lw3.3.jpg)
+![รูปภาพlw](Lw3.jpg)
+![รูปภาพlw](Lw3.3.jpg)
 4. ขั้นตอนที่4 นำผลลัพธ์ออกจากALUOut เข้าถึงที่Memory data register
-![รูปภาพlw](lw4.jpg)
+![รูปภาพlw](Lw4.jpg)
 5. ขั้นตอนที่5 อ่านค่าจากMemory data register ลงรีจิสเตอร์
-![รูปภาพlw](lw5.jpg)
+![รูปภาพlw](Lw5.jpg)
 
 <br>**หัวข้อที่5. Branch of Equal in Multi-cycle**
 
